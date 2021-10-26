@@ -1,10 +1,23 @@
 import React from "react";
-import { TextInput, View } from "react-native";
+import {
+  StyleProp,
+  TextInput,
+  TextInputProps,
+  View,
+  ViewStyle,
+} from "react-native";
 
-const PasswordInput = () => {
+interface PropTypes extends TextInputProps {
+  containerStyle: StyleProp<ViewStyle>;
+}
+
+const PasswordInput: React.FC<PropTypes> = ({
+  containerStyle,
+  ...textInputProps
+}) => {
   return (
-    <View>
-      <TextInput />
+    <View style={containerStyle}>
+      <TextInput {...textInputProps} />
     </View>
   );
 };
