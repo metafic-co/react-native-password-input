@@ -1,0 +1,30 @@
+{
+  "name": "react-native-password-input",
+  "version": "0.0.1",
+  "description": "Fully customizable password input component with show/hide button, RegEx validation, and customizable styles",
+  "main": "./build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metafic-co/react-native-password-input.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adeen Shukla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metafic-co/react-native-password-input/issues"
+  },
+  "homepage": "https://github.com/metafic-co/react-native-password-input#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "babel-preset-react-native": "^4.0.1",
+    "react-test-renderer": "^17.0.2"
+  }
+}
